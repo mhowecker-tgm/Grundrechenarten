@@ -15,7 +15,7 @@ class View(QMainWindow):
 
     def __init__(self, c: Controller):
         super().__init__()
-        uic.loadUi("Grundrechnungsarten.ui", self)
+        uic.loadUi("Grundrechenarten.ui", self)
         self.coB_operator.addItem("+")
         self.coB_operator.addItem("-")
         self.coB_operator.addItem("*")
